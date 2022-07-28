@@ -1,0 +1,155 @@
+ 
+ 
+ 
+----------------------------------------------------------------- 
+INFO: Starting batch at 20220728:142952 
+----------------------------------------------------------------- 
+ 
+DEBUG: Current Dir is C:\Users\PC\Downloads\Enigmatica2ExpertServer-1.83-log4j-fix -- trying to change to C:\Users\PC\Downloads\Enigmatica2ExpertServer-1.83-log4j-fix\ 
+INFO: Checking that settings.cfg exists 
+DEBUG: settings.cfg Found. Logging full contents below: 
+;SETTINGS FOR SERVERSTART SCRIPTS
+;See "serverstart.log" in the LOGS subfolder 
+;For more details/help see: https://github.com/AllTheMods/Server-Scripts
+
+MAX_RAM=4G; 
+JAVA_ARGS=-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Dfml.readTimeout=180 -Dfml.queryResult=confirm; 
+CRASH_COUNT=5; 
+CRASH_TIMER=600; 
+RUN_FROM_BAD_FOLDER=0; 
+IGNORE_OFFLINE=0; 
+IGNORE_JAVA_CHECK=0; 
+USE_SPONGE=0;
+HIGH_CPU_PRIORITY=0;
+
+MODPACK_NAME=Enigmatica 2: Expert;
+MCVER=1.12.2;
+FORGEVER=14.23.5.2860;
+FORGEURL=DISABLE; 
+INFO: Loading variables from settings.cfg  
+DEBUG: Starting variable definitions: 
+DEBUG: MC_SERVER_MAX_RAM=4G 
+DEBUG: MC_SERVER_FORGE_JAR= 
+DEBUG: MC_SERVER_SPONGE_BOOT= 
+DEBUG: MC_SERVER_JVM_ARGS=-Xmx4G -Xms2G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Dfml.readTimeout=180 -Dfml.queryResult=confirm 
+DEBUG: MC_SERVER_MAX_CRASH=5 
+DEBUG: MC_SERVER_CRASH_TIMER=600 
+DEBUG: MC_SERVER_IGNORE_OFFLINE=0 
+DEBUG: MC_SERVER_RUN_FROM_BAD_FOLDER=0 
+DEBUG: MC_SERVER_MCVER=1.12.2 
+DEBUG: MC_SERVER_FORGEVER=14.23.5.2860 
+DEBUG: MC_SERVER_FORGESHORT=2860 
+DEBUG: MC_SERVER_FORGEURL=DISABLE 
+DEBUG: MC_SERVER_SPONGE=0 
+DEBUG: MC_SERVER_HIGH_PRIORITY=0 
+DEBUG: MC_SERVER_PACKNAME=Enigmatica 2: Expert 
+DEBUG: MC_SERVER_SPONGEURL= 
+DEBUG: MC_SERVER_SPONGEBOOTSTRAPURL= 
+DEBUG: MC_SERVER_ERROR_REASON=Unspecified 
+DEBUG: MC_SERVER_TMP_FLAG= 
+DEBUG: MC_SERVER_CRASH_COUNTER=1 
+DEBUG: MC_SERVER_CRASH_YYYYMMDD=20220728 
+DEBUG: MC_SERVER_CRASH_HHMMSS=142952 
+DEBUG: Current directory file listing: 
+ Volume in drive C is OS
+ Volume Serial Number is CC0B-58E6
+
+ Directory of C:\Users\PC\Downloads\Enigmatica2ExpertServer-1.83-log4j-fix
+
+07/28/2022  02:29 PM    <DIR>          .
+07/28/2022  02:28 PM    <DIR>          ..
+08/11/2021  08:13 PM    <DIR>          config
+05/01/2018  10:41 PM             3,237 LICENSE.md
+07/28/2022  02:29 PM    <DIR>          logs
+08/11/2021  07:48 PM    <DIR>          mods
+05/01/2018  10:41 PM            12,200 README.md
+07/05/2021  09:01 PM    <DIR>          schematics
+07/05/2021  09:10 PM    <DIR>          scripts
+07/05/2021  09:10 PM               764 server.properties
+07/25/2021  09:40 PM            42,750 ServerStart.bat
+08/21/2021  09:27 PM            10,249 ServerStartLinux.sh
+03/25/2021  09:00 AM             1,919 SERVER_GUIDE.txt
+12/15/2021  11:10 AM               998 settings.cfg
+               7 File(s)         72,117 bytes
+               7 Dir(s)  679,624,671,232 bytes free
+DEBUG: JAVA version output (java -d64 -version): 
+java version "1.8.0_311"
+Java(TM) SE Runtime Environment (build 1.8.0_311-b11)
+INFO: Found 64-bit Java 1.8 
+...64-bit Java 1.8 found! 
+INFO: Checking if current folder is valid... 
+INFO: Checking for basic internet connectivity... 
+Reply from 8.8.8.8: bytes=32 time=19ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=19ms TTL=117
+INFO: Ping of "8.8.8.8" Successfull 
+INFO: Checking for forge/minecraft binaries... 
+INFO: FORGE 14.23.5.2860 not found, re-installing... 
+INFO: Clearing and installing forge/minecraft... 
+
+BITSADMIN version 3.0
+BITS administration utility.
+(C) Copyright Microsoft Corp.
+
+0 out of 0 jobs canceled.
+File Not Found
+ DEBUG: MC_SERVER_TMP_FLAG=0 
+File not found - 0
+Could Not Find C:\Users\PC\Downloads\Enigmatica2ExpertServer-1.83-log4j-fix\*forge*installer*.jar*
+File not found - 0
+ERROR: Could not reach minecraftforge.net 
+ERROR: Error flagged, reason is: "NoInternetConnectivityMinecraftForgeNet" 
+WARN: Server startup script is exiting. Dumping current vars: 
+DEBUG: MC_SERVER_MAX_RAM=4G 
+DEBUG: MC_SERVER_FORGE_JAR= 
+DEBUG: MC_SERVER_SPONGE_BOOT= 
+DEBUG: MC_SERVER_JVM_ARGS=-Xmx4G -Xms2G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Dfml.readTimeout=180 -Dfml.queryResult=confirm 
+DEBUG: MC_SERVER_MAX_CRASH=5 
+DEBUG: MC_SERVER_CRASH_TIMER=600 
+DEBUG: MC_SERVER_IGNORE_OFFLINE=0 
+DEBUG: MC_SERVER_RUN_FROM_BAD_FOLDER=0 
+DEBUG: MC_SERVER_MCVER=1.12.2 
+DEBUG: MC_SERVER_FORGEVER=14.23.5.2860 
+DEBUG: MC_SERVER_FORGESHORT=2860 
+DEBUG: MC_SERVER_FORGEURL=DISABLE 
+DEBUG: MC_SERVER_HIGH_PRIORITY=0 
+DEBUG: MC_SERVER_SPONGE=0 
+DEBUG: MC_SERVER_PACKNAME=Enigmatica 2: Expert 
+DEBUG: MC_SERVER_SPONGEURL= 
+DEBUG: MC_SERVER_SPONGEBOOTSTRAPURL= 
+DEBUG: MC_SERVER_ERROR_REASON=NoInternetConnectivityMinecraftForgeNet 
+DEBUG: MC_SERVER_TMP_FLAG=  
+DEBUG: MC_SERVER_CRASH_COUNTER=1 
+DEBUG: MC_SERVER_CRASH_YYYYMMDD=20220728 
+DEBUG: MC_SERVER_CRASH_HHMMSS=142952 
+DEBUG: Current directory file listing: 
+ Volume in drive C is OS
+ Volume Serial Number is CC0B-58E6
+
+ Directory of C:\Users\PC\Downloads\Enigmatica2ExpertServer-1.83-log4j-fix
+
+07/28/2022  02:29 PM    <DIR>          .
+07/28/2022  02:28 PM    <DIR>          ..
+08/11/2021  08:13 PM    <DIR>          config
+05/01/2018  10:41 PM             3,237 LICENSE.md
+07/28/2022  02:29 PM    <DIR>          logs
+08/11/2021  07:48 PM    <DIR>          mods
+05/01/2018  10:41 PM            12,200 README.md
+07/05/2021  09:01 PM    <DIR>          schematics
+07/05/2021  09:10 PM    <DIR>          scripts
+07/05/2021  09:10 PM               764 server.properties
+07/25/2021  09:40 PM            42,750 ServerStart.bat
+08/21/2021  09:27 PM            10,249 ServerStartLinux.sh
+03/25/2021  09:00 AM             1,919 SERVER_GUIDE.txt
+12/15/2021  11:10 AM               998 settings.cfg
+               7 File(s)         72,117 bytes
+               7 Dir(s)  679,628,267,520 bytes free
+DEBUG: JAVA version output (java -d64 -version): 
+java version "1.8.0_311"
+Java(TM) SE Runtime Environment (build 1.8.0_311-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.311-b11, mixed mode)
+
+BITSADMIN version 3.0
+BITS administration utility.
+(C) Copyright Microsoft Corp.
+
+0 out of 0 jobs canceled.
